@@ -48,7 +48,7 @@ const Form = ({ onAddTodo }) => {
 				</label>
 				<input
 					className={`${classes.form__input} ${showError ? classes.error : ''}`}
-					placeholder="Enter a desscription"
+					placeholder="Enter a description"
 					type="text"
 					value={todo}
 					onChange={onChangeHandler}

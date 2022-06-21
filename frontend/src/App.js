@@ -20,7 +20,7 @@ const App = () => {
   const fetchTodos = async () => {
     // TODO: Fetch data from API
     const res = await axios.get("http://localhost:4000/api/v1/todos");
-    console.log(res);
+    // console.log(res);
     const resTodos = res.data.data.todos;
     setTodos(resTodos);
   };
